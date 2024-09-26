@@ -1,0 +1,36 @@
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	citecolor=lime!50!black,
+	filecolor=red
+}
+%\addbibresource{} %Bibliographiedateien laden
+\addbibresource{bib.bib}
+\date{\today}
+
+\geometry{a4paper, left=25mm, right=25mm, top=30mm, bottom=30mm}
+\lhead{\thedate}
+\rhead{GPR}
+\lhead{\thetitle}
+\pagestyle{fancy}
+
+\usetikzlibrary{patterns}
+\usetikzlibrary{3d}
+\makeindex[title=Stichwortverzeichnis,intoc
+,options= -s Index-Formatierung.ist
+]
+\author{Autor}
+\allowdisplaybreaks
+
+\lstset
+{ %Formatting for code in appendix
+    basicstyle=\footnotesize,
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    tabsize=2,
+    breaklines=true,
+    breakatwhitespace=false,
+}

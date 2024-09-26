@@ -1,0 +1,35 @@
+\documentclass[bibliography=totocnumbered]{scrartcl}
+\input{settings/packages}
+\input{settings/commands}
+\input{settings/settings}
+\title{Titel}
+
+
+\rfoot{Versuchsnummer}
+
+\begin{document}
+    \input{Titelseite}
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    \input{settings/acronyms}
+    \newpage
+    \section{Einführung}
+        \begin{itemize}
+            \item Warum ist der Versuch hilfreich?
+            \item Existiert \ac{bspw.} ein oder zwei Paper auf Google Scholar, die eine Antwort auf die vorherige Frage liefern
+        \end{itemize}
+    \section{Theorie und Versuchsaufbau}
+        Welche Formeln wurden verwenden und warum? Wie sieht der Versuchsaufbau aus?
+    \section{Analyse}
+        Wie sehen die Ergebnisse der Analyse aus? Wie können diese interpretiert werden?
+    \section{Diskussion}
+        Diskussion der Ergebnisse und Vergleich mit anderen Daten (andere Protokolle, Paper, Bücher, \ac{etc.}), mit Angabe der Quellen.
+
+    \newpage
+    \appendix
+    \section{Anhang}
+    Versuchsaufzeichnungen
+    \newpage
+    \printbibliography[title={Literatur}]
+\end{document}
