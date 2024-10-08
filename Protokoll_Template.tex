@@ -2,17 +2,19 @@
 \input{settings/packages}
 \input{settings/commands}
 \input{settings/settings}
-\title{Titel}
-
+\title{\Huge Titel\\
+    \huge \ac{GPR} Nr.
+}
 
 \rfoot{Versuchsnummer}
 
 \begin{document}
+    \renewcommand{\abstractname}{Abstract} % Nur zur verwenden, wenn man nicht in englisch schriebt
     \input{Titelseite}
     \tableofcontents
     \listoffigures
     \listoftables
-    \input{settings/acronyms}
+    \input{settings/acronyms_de}
     \newpage
     \section{Einführung}
         \begin{itemize}
