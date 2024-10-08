@@ -1,6 +1,6 @@
 # Deutsch
 
-Dieses Repository enthält ein Template für Praktika im Physik-Studium. Es kann an andere Studiengänge, Praktika oder Versuche angepasst werden, dies ist jedoch Aufgabe des jeweiligen Nutzers.
+Dieses Repository enthält ein Template für die Grundpraktika im Physik-Studium. Es kann an andere Studiengänge, Praktika oder Versuche angepasst werden, dies ist jedoch Aufgabe des jeweiligen Nutzers.
 
 ## Empfohlene Vorgehensweise:
 
