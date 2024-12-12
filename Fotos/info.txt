@@ -1,0 +1,23 @@
+# Deutsch
+Info: Dieser Ordner dient dazu, um Fotos für die Protokolle zu speichern. 
+Voraussetzung: Das Template ist auf Overleaf hochgeladen.
+Bilder/Fotos/Grafiken speichern: Man geht auf den Ordner, klickt auf die drei Einstellungspunkte und wählt Upload/Hochladen, um das Bildmaterial hochzuladen.
+Zugriff auf das Bildmaterial: 
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{Fotos/bsp.png}
+  \caption{Bildunterschrift}
+  \label{fig: Bild Label}
+\end{figure}
+
+# English
+Info: This folder is intended for storing photos for the reports.
+Prerequisite: The template is uploaded to Overleaf.
+Saving images/photos/graphics: Go to the folder, click on the three settings dots, and select `Upload` to upload the images.
+Accessing the images:
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{Fotos/bsp.png}
+  \caption{Caption}
+  \label{fig: Image Label}
+\end{figure}
