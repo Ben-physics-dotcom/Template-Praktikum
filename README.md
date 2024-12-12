@@ -4,9 +4,8 @@ Dieses Repository enthält ein Template für die Grundpraktika im Physik-Studium
 
 ## Empfohlene Vorgehensweise, um das Template in Overleaf zu nutzen:
 
-1. **Template in Overleaf laden**
-   """via Zip-Datei"""
-         Klicke auf den Grünen Button und lade das Template als Zip-Datei herunter. Gehe auf Overleaf und klicke auf `Neues Projekt`. Als nächstes klicke auf `Upload Project`/`Projekt hochladen` und wähle die heruntergeladene Zip-Datei aus.
+1. **Template in Overleaf nutzen**
+   Klicke auf den Grünen Button und lade das Template als Zip-Datei herunter. Gehe auf Overleaf und klicke auf `Neues Projekt`. Als nächstes klicke auf `Upload Project`/`Projekt hochladen` und wähle die heruntergeladene Zip-Datei aus.
    
 3. **Ordner für Protokolle erstellen:**
    Erstelle einen Ordner, in dem du deine Protokolle speicherst.
