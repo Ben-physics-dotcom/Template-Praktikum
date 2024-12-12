@@ -6,35 +6,26 @@ Dieses Repository enthält ein Template für die Grundpraktika im Physik-Studium
 
 1. **Template in Overleaf nutzen**
    Klicke auf den Grünen Button und lade das Template als Zip-Datei herunter. Gehe auf Overleaf und klicke auf `Neues Projekt`. Als nächstes klicke auf `Upload Project`/`Projekt hochladen` und wähle die heruntergeladene Zip-Datei aus.
-   
-3. **Ordner für Protokolle erstellen:**
-   Erstelle einen Ordner, in dem du deine Protokolle speicherst.
 
-4. **Ordner für Bilder erstellen:**
+2. **Ordner für Bilder erstellen:**
    Erstelle einen separate Ordner, einen für Bilder/Grafiken.
 
-5. **TeX-Dateien vorbereiten:**
+3. **TeX-Dateien vorbereiten:**
    Für jeden Versuch solltest du eine separate TeX-Datei erstellen. Diese Datei sollte Titel, Datum und andere relevante Informationen zum Versuch enthalten.
 
 ---
 
 # English
 
-This repository contains a template for physics laboratory reports. It can be adapted for other study programs, internships, or experiments, but this is the user's responsibility.
+This repository contains a template for the basic physics laboratory courses. It can be adapted to other degree programs, laboratory courses, or experiments, but this is the responsibility of the respective user.
 
-## Recommended Procedure to used in Overleaf:
+## Recommended Procedure for Using the Template in Overleaf:
 
-1. **Download the repository:**
-   Download the repository to your computer.
+1. **Use the Template in Overleaf:**  
+   Click the green button and download the template as a zip file. Go to Overleaf and click on `New Project`. Next, click on `Upload Project` and select the downloaded zip file.
 
-2. **Unzip the repository:**
-   Unzip the downloaded repository.
+2. **Create a Folder for Images:**  
+   Create a separate folder for images/graphics.
 
-3. **Create a folder for reports:**
-   Create a folder where you will store your laboratory reports.
-
-4. **Create folders for images and tables:**
-   Create two separate folders, one for images/graphics and one for tables. Within these folders, you can create subfolders for individual experiments.
-
-5. **Prepare TeX files:**
+3. **Prepare TeX Files:**  
    For each experiment, you should create a separate TeX file. This file should include the title, date, and other relevant information about the experiment.
