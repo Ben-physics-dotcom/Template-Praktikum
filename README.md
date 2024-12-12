@@ -2,19 +2,17 @@
 
 Dieses Repository enthält ein Template für die Grundpraktika im Physik-Studium. Es kann an andere Studiengänge, Praktika oder Versuche angepasst werden, dies ist jedoch Aufgabe des jeweiligen Nutzers.
 
-## Empfohlene Vorgehensweise:
+## Empfohlene Vorgehensweise, um das Template in Overleaf zu nutzen:
 
-1. **Repository herunterladen:**
-   Lade das Repository auf deinen Computer herunter.
-
-2. **Entpacken:**
-   Entpacke das heruntergeladene Repository.
-
+1. **Template in Overleaf laden**
+   """via Zip-Datei"""
+         Klicke auf den Grünen Button und lade das Template als Zip-Datei herunter. Gehe auf Overleaf und klicke auf `Neues Projekt`. Als nächstes klicke auf `Upload Project`/`Projekt hochladen` und wähle die heruntergeladene Zip-Datei aus.
+   
 3. **Ordner für Protokolle erstellen:**
    Erstelle einen Ordner, in dem du deine Protokolle speicherst.
 
-4. **Ordner für Bilder und Tabellen erstellen:**
-   Erstelle zwei separate Ordner, einen für Bilder/Grafiken und einen für Tabellen. Innerhalb dieser Ordner kannst du Unterordner für die jeweiligen Versuche anlegen.
+4. **Ordner für Bilder erstellen:**
+   Erstelle einen separate Ordner, einen für Bilder/Grafiken.
 
 5. **TeX-Dateien vorbereiten:**
    Für jeden Versuch solltest du eine separate TeX-Datei erstellen. Diese Datei sollte Titel, Datum und andere relevante Informationen zum Versuch enthalten.
@@ -25,7 +23,7 @@ Dieses Repository enthält ein Template für die Grundpraktika im Physik-Studium
 
 This repository contains a template for physics laboratory reports. It can be adapted for other study programs, internships, or experiments, but this is the user's responsibility.
 
-## Recommended Procedure:
+## Recommended Procedure to used in Overleaf:
 
 1. **Download the repository:**
    Download the repository to your computer.
