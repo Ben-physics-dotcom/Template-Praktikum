@@ -1,3 +1,5 @@
+\author{Autor 1\\(Matrikelnummer)\\Mail \and Autor 2\\(Matrikelnummer)\\Mail}
+
 \hypersetup{
 	colorlinks=true,
 	linkcolor=blue,
@@ -8,28 +10,57 @@
 }
 %\addbibresource{} %Bibliographiedateien laden
 \addbibresource{Quellen.bib}
-\date{\today}
 
-\geometry{a4paper, left=25mm, right=25mm, top=30mm, bottom=30mm}
+\geometry{a4paper, left=25mm, right=25mm, top=25mm, bottom=25mm}
+\title{Titel}
+% Alternative titles
+% - Metric Analysis for Crystalls using Density of States Plots
+\date{\today}
 \lhead{\thedate}
-\rhead{\ac{GPR}}
-\pagestyle{fancy}
+\lhead{\thetitle}
+% \pagestyle{fancy}
 
 \usetikzlibrary{patterns}
 \usetikzlibrary{3d}
-\makeindex[title=Stichwortverzeichnis,intoc
-,options= -s index.ist
-]
-\author{Autor 1\\(Matrikelnummer)\\Mail \and Autor 2\\(Matrikelnummer)\\Mail}
+\pagestyle{plain}
 \allowdisplaybreaks
-
-\lstset
-{ %Formatting for code in appendix
-    basicstyle=\footnotesize,
-    numbers=left,
-    stepnumber=1,
-    showstringspaces=false,
-    tabsize=2,
-    breaklines=true,
-    breakatwhitespace=false,
+% function for multiple white spaces
+\newcommand{\ws}[1]{% ws steht für white spaces
+  \ifnum#1>0
+    \foreach \i in {1,...,#1}{\;}%
+  \fi
 }
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\AtBeginBibliography{%
+  \raggedright
+  \sloppy
+}
+
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
